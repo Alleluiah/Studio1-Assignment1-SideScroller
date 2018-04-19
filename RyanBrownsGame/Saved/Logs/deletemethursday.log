@@ -1,0 +1,652 @@
+﻿Log file open, 10/27/16 13:28:00
+LogInit:Display: Running engine for game: deletemethursday
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1456077151) SRandInit(1456077151).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.099932
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3106830
+LogInit: Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3106830
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Aug 30 2016 18:11:39
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.27-12.28.01:042][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.27-12.28.01:042][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.27-12.28.01:148][  0]LogInit: Computer: CW304-26
+[2016.10.27-12.28.01:148][  0]LogInit: User: U1659267
+[2016.10.27-12.28.01:149][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.27-12.28.01:149][  0]LogInit: High frequency timer resolution =3.507502 MHz
+[2016.10.27-12.28.01:149][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.10.27-12.28.01:149][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.27-12.28.01:149][  0]LogMemory: Process Physical Memory: 255.84 MB used, 255.84 MB peak
+[2016.10.27-12.28.01:149][  0]LogMemory: Process Virtual Memory: 259.99 MB used, 259.99 MB peak
+[2016.10.27-12.28.01:149][  0]LogMemory: Physical Memory: 3574.41 MB used, 16221.97 MB total
+[2016.10.27-12.28.01:149][  0]LogMemory: Virtual Memory: 620.14 MB used, 134217728.00 MB total
+[2016.10.27-12.28.01:176][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.27-12.28.01:772][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.27-12.28.01:796][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.10.27-12.28.01:797][  0]LogD3D11RHI:       4008/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.10.27-12.28.01:799][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.27-12.28.01:799][  0]LogD3D11RHI:       0/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.27-12.28.01:799][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.27-12.28.01:802][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.27-12.28.01:802][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.27-12.28.01:802][  0]LogWindows: EnumDisplayDevices:
+[2016.10.27-12.28.01:802][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2016.10.27-12.28.01:803][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2016.10.27-12.28.01:803][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.10.27-12.28.01:803][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.10.27-12.28.01:803][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.10.27-12.28.01:803][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.10.27-12.28.01:803][  0]LogD3D11RHI:   Driver Version: 353.30 (internal:10.18.13.5330, unified:353.30)
+[2016.10.27-12.28.01:803][  0]LogD3D11RHI:      Driver Date: 6-17-2015
+[2016.10.27-12.28.01:803][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.27-12.28.01:813][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.27-12.28.01:829][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.27-12.28.01:829][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (K:/Studio/startingfrommidway/Intermediate/Shaders/WorkingDirectory/11112/).
+[2016.10.27-12.28.01:829][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/U1659267/AppData/Local/Temp/UnrealShaderWorkingDir/56E369444632FA047D5B2EA6FC4381C7/'.
+[2016.10.27-12.28.01:829][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.27-12.28.02:682][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.27-12.28.02:700][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.27-12.28.02:717][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.27-12.28.02:734][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.27-12.28.02:752][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.27-12.28.02:769][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.27-12.28.02:786][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.27-12.28.02:803][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.27-12.28.02:820][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.27-12.28.02:836][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.27-12.28.02:853][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.27-12.28.02:886][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.27-12.28.02:886][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.27-12.28.02:886][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.27-12.28.02:917][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.27-12.28.02:935][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.27-12.28.02:952][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.10.27-12.28.02:967][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.27-12.28.02:984][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.27-12.28.03:000][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.27-12.28.03:000][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.27-12.28.03:064][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.27-12.28.03:116][  0]LogDerivedDataCache: Loaded boot cache 0.05s 62MB C:/Users/U1659267/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.27-12.28.03:116][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/U1659267/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.10.27-12.28.03:118][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file K:/Studio/startingfrommidway/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.27-12.28.03:118][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.27-12.28.03:119][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file K:/Studio/startingfrommidway/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.27-12.28.03:119][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.27-12.28.03:132][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.27-12.28.03:144][  0]LogDerivedDataCache: Using Local data cache path C:/Users/U1659267/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.27-12.28.03:325][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.27-12.28.03:327][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.27-12.28.03:407][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.27-12.28.03:407][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.27-12.28.03:407][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.27-12.28.03:631][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.10.27-12.28.03:867][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: deletemethursday, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1000334278
+[2016.10.27-12.28.03:902][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2016.10.27-12.28.05:328][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 1.419048 seconds
+[2016.10.27-12.28.05:333][  0]LogUObjectArray: 29777 objects as part of root set at end of initial load.
+[2016.10.27-12.28.05:333][  0]LogUObjectAllocator: 6124704 out of 0 bytes used by permanent object pool.
+[2016.10.27-12.28.05:333][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.27-12.28.05:337][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.27-12.28.05:507][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.27-12.28.05:507][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.27-12.28.06:204][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.27-12.28.06:204][  0]LogDirectoryWatcher: A directory notification failed for 'K:/Studio/startingfrommidway/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-12.28.06:697][  0]SourceControl: Info Source control is disabled
+[2016.10.27-12.28.06:726][  0]SourceControl: Info Source control is disabled
+[2016.10.27-12.28.06:735][  0]SourceControl: Info Source control is disabled
+[2016.10.27-12.28.06:745][  0]SourceControl: Info Source control is disabled
+[2016.10.27-12.28.07:005][  0]LogEngine: Initializing Engine...
+[2016.10.27-12.28.07:006][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.10.27-12.28.07:118][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.10.27-12.28.07:127][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.27-12.28.07:141][  0]LogInit: FAudioDevice initialized.
+[2016.10.27-12.28.07:171][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/U1659267/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.27-12.28.07:179][  0]LogInit: Texture streaming: Enabled
+[2016.10.27-12.28.07:198][  0]LogInit: Transaction tracking system initialized
+[2016.10.27-12.28.07:213][  0]BlueprintLog: New page: Editor Load
+[2016.10.27-12.28.07:377][  0]LocalizationService: Info Localization service is disabled
+[2016.10.27-12.28.07:469][  0]LogConsoleResponse:Display: 
+[2016.10.27-12.28.07:563][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.10.27-12.28.07:563][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.27-12.28.07:704][  0]SourceControl: Info Source control is disabled
+[2016.10.27-12.28.07:803][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.27-12.28.08:073][  0]LogFileCache: Scanning file cache for directory 'K:/Studio/startingfrommidway/Content/' took 0.52s
+[2016.10.27-12.28.25:036][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.27-12.28.25:210][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.27-12.28.28:309][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.27-12.28.28:864][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.27-12.28.28:865][  0]Cmd: MAP LOAD FILE="K:/Studio/startingfrommidway/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.27-12.28.28:880][  0]LightingResults: New page: Lighting Build
+[2016.10.27-12.28.28:883][  0]MapCheck: New page: Map Check
+[2016.10.27-12.28.28:883][  0]LightingResults: New page: Lighting Build
+[2016.10.27-12.28.29:122][  0]LogTexture:Display: Building textures: Layer0_0 (AutoDXT)
+[2016.10.27-12.28.29:356][  0]LogTexture:Display: Building textures: BlockA0 (AutoDXT)
+[2016.10.27-12.28.29:366][  0]LogAIModule: Creating AISystem for world Level1
+[2016.10.27-12.28.29:375][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.27-12.28.29:376][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.27-12.28.29:482][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 106.057ms to complete.
+[2016.10.27-12.28.29:482][  0]LogFileHelpers: Loading map 'Level1' took 0.617
+[2016.10.27-12.28.29:613][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_2690_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_18e0_0///####STATCAT_Advanced####
+[2016.10.27-12.28.29:613][  0]LogCollectionManager: Loaded 0 collections in 0.032066 seconds
+[2016.10.27-12.28.29:755][  0]LogFileCache: Scanning file cache for directory 'K:/Studio/startingfrommidway/Saved/Collections/' took 0.03s
+[2016.10.27-12.28.29:755][  0]LogFileCache: Scanning file cache for directory 'K:/Studio/startingfrommidway/Content/Developers/U1659267/Collections/' took 0.03s
+[2016.10.27-12.28.29:755][  0]LogFileCache: Scanning file cache for directory 'K:/Studio/startingfrommidway/Content/Collections/' took 0.03s
+[2016.10.27-12.28.29:755][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.10.27-12.28.29:764][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2141 classes and 415 folders.
+[2016.10.27-12.28.29:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.27-12.28.29:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.27-12.28.29:769][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.10.27-12.28.29:773][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.10.27-12.28.29:993][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.27-12.28.30:003][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.10.27-12.28.30:073][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.27-12.28.30:176][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.27-12.28.30:202][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.10.27-12.28.30:203][  0]LogLoad: (Engine Initialization) Total time: 32.27 seconds
+[2016.10.27-12.28.30:203][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2016.10.27-12.28.30:203][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.27-12.28.30:203][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.27-12.28.30:212][  0]LogOcInput: OculusInput pre-init called
+[2016.10.27-12.28.30:231][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.27-12.28.30:652][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
+[2016.10.27-12.28.30:689][  1]LogAssetRegistry: Asset discovery search completed in 26.8115 seconds
+[2016.10.27-12.28.30:689][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.10.27-12.28.30:689][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2016.10.27-12.28.30:707][  2]LogDirectoryWatcher: A directory notification failed for 'K:/Studio/startingfrommidway/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-12.28.30:709][  2]LogDirectoryWatcher: A directory notification failed for 'K:/Studio/startingfrommidway/Content/', and we were unable to create a new request.
+[2016.10.27-12.28.30:709][  2]LogDirectoryWatcher: A directory notification failed for 'K:/Studio/startingfrommidway/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-12.28.30:709][  2]LogDirectoryWatcher: A directory notification failed for 'K:/Studio/startingfrommidway/Content/Developers/U1659267/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-12.28.30:709][  2]LogDirectoryWatcher: A directory notification failed for 'K:/Studio/startingfrommidway/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-12.28.30:717][  3]LogDirectoryWatcher: A directory notification failed for 'K:/Studio/startingfrommidway/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-12.28.30:722][  3]LogDirectoryWatcher: A directory notification failed for 'K:/Studio/startingfrommidway/Saved/Collections/', and we were unable to create a new request.
+[2016.10.27-12.28.30:722][  3]LogDirectoryWatcher: A directory notification failed for 'K:/Studio/startingfrommidway/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-12.28.30:725][  3]LogDirectoryWatcher: A directory notification failed for 'K:/Studio/startingfrommidway/Content/Collections/', and we were unable to create a new request.
+[2016.10.27-12.28.30:725][  3]LogDirectoryWatcher: A directory notification failed for 'K:/Studio/startingfrommidway/Content/Developers/U1659267/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.10.27-12.28.30:727][  3]LogDirectoryWatcher: A directory notification failed for 'K:/Studio/startingfrommidway/Content/Developers/U1659267/Collections/', and we were unable to create a new request.
+[2016.10.27-12.28.39:665][915]LogTexture:Display: Building textures: Idle (AutoDXT)
+[2016.10.27-12.28.40:071][915]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0031 seconds. Added 112 classes and 0 folders.
+[2016.10.27-12.29.38:249][111]LogEditorViewport: Clicking Background
+[2016.10.27-12.29.48:880][369]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Layer0_0_Sprite)
+[2016.10.27-12.29.49:766][471]LogEditorViewport: Clicking Background
+[2016.10.27-12.30.22:117][332]LogEditorViewport: Clicking Background
+[2016.10.27-12.31.20:369][318]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Layer0_0_Sprite)
+[2016.10.27-12.31.21:706][470]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Layer0_0_Sprite)
+[2016.10.27-12.31.22:224][531]LogEditorViewport: Clicking Background
+[2016.10.27-12.33.43:155][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-12.33.43:156][360]PIE: New page: PIE session: Level1 (Oct 27, 2016, 1:33:43 PM)
+[2016.10.27-12.33.43:156][360]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.10.27-12.33.43:160][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004233s)
+[2016.10.27-12.33.43:161][360]LogAIModule: Creating AISystem for world Level1
+[2016.10.27-12.33.43:164][360]LogPlayLevel: PIE: World Init took: (0.003712s)
+[2016.10.27-12.33.43:164][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.008217s)
+[2016.10.27-12.33.43:216][360]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.27-12.33.43:222][360]LogInit: FAudioDevice initialized.
+[2016.10.27-12.33.43:324][360]LogWorld: Game class is 'My2DGame_C'
+[2016.10.27-12.33.43:329][360]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.27-13.33.43
+[2016.10.27-12.33.43:329][360]LogWorld: Bringing up level for play took: 0.002566
+[2016.10.27-12.33.43:338][360]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0025 seconds. Added 11 classes and 0 folders.
+[2016.10.27-12.33.43:339][360]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-12.33.43:339][360]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-12.33.43:339][360]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-12.33.43:341][360]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-12.33.43:341][360]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.513
+[2016.10.27-12.33.54:527][616]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.10.27-12.34.26:333][331]BlueprintLog: New page: Compile Dave
+[2016.10.27-12.34.29:325][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dave" FILE="K:/Studio/startingfrommidway/Content/Dave.uasset" SILENT=true
+[2016.10.27-12.34.30:282][660]LogSavePackage: Save=696.07ms
+[2016.10.27-12.34.30:282][660]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Dave70A8B96A40D3F0CC563B29843B7158F1.tmp' to 'K:/Studio/startingfrommidway/Content/Dave.uasset'
+[2016.10.27-12.34.30:366][660]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Dave.uasset
+[2016.10.27-12.34.34:527][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-12.34.34:527][138]PIE: New page: PIE session: Level1 (Oct 27, 2016, 1:34:34 PM)
+[2016.10.27-12.34.34:527][138]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.10.27-12.34.34:530][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002645s)
+[2016.10.27-12.34.34:530][138]LogAIModule: Creating AISystem for world Level1
+[2016.10.27-12.34.34:532][138]LogPlayLevel: PIE: World Init took: (0.002230s)
+[2016.10.27-12.34.34:532][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.005038s)
+[2016.10.27-12.34.34:548][138]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.27-12.34.34:554][138]LogInit: FAudioDevice initialized.
+[2016.10.27-12.34.34:588][138]LogWorld: Game class is 'My2DGame_C'
+[2016.10.27-12.34.34:591][138]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.27-13.34.34
+[2016.10.27-12.34.34:591][138]LogWorld: Bringing up level for play took: 0.002456
+[2016.10.27-12.34.34:592][138]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-12.34.34:592][138]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-12.34.34:592][138]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-12.34.34:593][138]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-12.34.34:593][138]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.233
+[2016.10.27-12.35.04:293][171]LogEditorViewport: Clicking Background
+[2016.10.27-12.35.06:707][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-12.35.06:707][450]PIE: New page: PIE session: Level1 (Oct 27, 2016, 1:35:06 PM)
+[2016.10.27-12.35.06:707][450]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.10.27-12.35.06:711][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003194s)
+[2016.10.27-12.35.06:711][450]LogAIModule: Creating AISystem for world Level1
+[2016.10.27-12.35.06:714][450]LogPlayLevel: PIE: World Init took: (0.003080s)
+[2016.10.27-12.35.06:714][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.006464s)
+[2016.10.27-12.35.06:729][450]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.27-12.35.06:735][450]LogInit: FAudioDevice initialized.
+[2016.10.27-12.35.06:769][450]LogWorld: Game class is 'My2DGame_C'
+[2016.10.27-12.35.06:773][450]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.27-13.35.06
+[2016.10.27-12.35.06:780][450]LogWorld: Bringing up level for play took: 0.009989
+[2016.10.27-12.35.06:781][450]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-12.35.06:781][450]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-12.35.06:781][450]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-12.35.06:782][450]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-12.35.06:782][450]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.043
+[2016.10.27-12.35.13:740][279]LogEditorViewport: Clicking on Actor (LMB): Dave_C (Dave)
+[2016.10.27-12.35.14:917][409]Cmd: DELETE
+[2016.10.27-12.35.14:917][409]Cmd: ACTOR DELETE
+[2016.10.27-12.35.14:924][409]LogEditorActor: Deleted Actor: Dave_C
+[2016.10.27-12.35.14:963][409]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2016.10.27-12.35.33:740][343]LogRenderer: Reallocating scene render targets to support 1208x844 (Frame:45725).
+[2016.10.27-12.36.37:645][700]LogTexture:Display: Building textures: Platform (AutoDXT)
+[2016.10.27-12.37.38:950][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lift" FILE="K:/Studio/startingfrommidway/Content/Lift.uasset" SILENT=true
+[2016.10.27-12.37.39:244][297]LogSavePackage: Save=227.42ms
+[2016.10.27-12.37.39:245][297]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/LiftFDC0E21B4763C52161F063A953791BA7.tmp' to 'K:/Studio/startingfrommidway/Content/Lift.uasset'
+[2016.10.27-12.37.39:360][297]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Lift.uasset
+[2016.10.27-12.37.39:987][367]BlueprintLog: New page: Compile Lift
+[2016.10.27-12.37.40:918][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lift" FILE="K:/Studio/startingfrommidway/Content/Lift.uasset" SILENT=true
+[2016.10.27-12.37.41:430][447]LogSavePackage: Save=230.78ms
+[2016.10.27-12.37.41:430][447]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Lift4BCF04784AB37AD265F5AB8EE6F48E46.tmp' to 'K:/Studio/startingfrommidway/Content/Lift.uasset'
+[2016.10.27-12.37.41:496][447]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Lift.uasset
+[2016.10.27-12.37.55:028][900]LogEditorViewport: Clicking Background
+[2016.10.27-12.37.57:404][171]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Platform_Sprite)
+[2016.10.27-12.38.05:721][970]LogEditorViewport: Clicking Background
+[2016.10.27-12.38.09:856][446]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Platform_Sprite)
+[2016.10.27-12.38.34:032][222]Cmd: DELETE
+[2016.10.27-12.38.34:032][222]Cmd: ACTOR DELETE
+[2016.10.27-12.38.34:033][222]LogEditorActor: Deleted Actor: Lift_C
+[2016.10.27-12.38.34:044][222]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2016.10.27-12.38.41:507][870]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Platform_Sprite)
+[2016.10.27-12.38.42:167][933]Cmd: DELETE
+[2016.10.27-12.38.42:167][933]Cmd: ACTOR DELETE
+[2016.10.27-12.38.42:167][933]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2016.10.27-12.38.42:179][933]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2016.10.27-12.38.51:147][666]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Layer0_0_Sprite)
+[2016.10.27-12.38.52:266][774]LogEditorViewport: Clicking Background
+[2016.10.27-12.38.59:031][561]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift)
+[2016.10.27-12.39.04:369][106]LogEditorViewport: Clicking Background
+[2016.10.27-12.39.34:149][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="K:/Studio/startingfrommidway/Saved/Autosaves/Game/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.10.27-12.39.35:366][528]LogSavePackage: Save=928.00ms
+[2016.10.27-12.39.35:366][528]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Level1_Auto1C549143A4DEA1CEDA05FD9AB065FD610.tmp' to 'K:/Studio/startingfrommidway/Saved/Autosaves/Game/Level1_Auto1.umap'
+[2016.10.27-12.39.35:457][528]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Saved/Autosaves/Game/Level1_Auto1.umap
+[2016.10.27-12.39.35:484][528]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 1.414
+[2016.10.27-12.39.35:484][528]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.414
+[2016.10.27-12.39.35:541][528]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HighResolutionContent/Tiles/Platform_Sprite] ([1] browsable assets)...
+[2016.10.27-12.39.35:550][528]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/HighResolutionContent/Tiles/Platform_Sprite.Platform_Sprite]
+[2016.10.27-12.39.35:550][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/HighResolutionContent/Tiles/Platform_Sprite]
+[2016.10.27-12.39.35:754][528]LogSavePackage: Save=157.06ms
+[2016.10.27-12.39.35:754][528]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Platform_Sprite_Auto1991339FA42D385C970B9BAAE78A2E5A0.tmp' to 'K:/Studio/startingfrommidway/Saved/Autosaves/Game/HighResolutionContent/Tiles/Platform_Sprite_Auto1.uasset'
+[2016.10.27-12.39.35:812][528]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Saved/Autosaves/Game/HighResolutionContent/Tiles/Platform_Sprite_Auto1.uasset
+[2016.10.27-12.39.35:812][528]LogFileHelpers: Auto-saving content packages took 0.304
+[2016.10.27-12.40.04:317][984]BlueprintLog: New page: Compile Lift
+[2016.10.27-12.40.05:076][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lift" FILE="K:/Studio/startingfrommidway/Content/Lift.uasset" SILENT=true
+[2016.10.27-12.40.05:563][ 51]LogSavePackage: Save=226.56ms
+[2016.10.27-12.40.05:563][ 51]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Lift75E7EBE94C8B01582711ECBDF8FBDAAD.tmp' to 'K:/Studio/startingfrommidway/Content/Lift.uasset'
+[2016.10.27-12.40.05:700][ 51]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Lift.uasset
+[2016.10.27-12.47.18:624][679]BlueprintLog: New page: Compile Lift
+[2016.10.27-12.47.19:339][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lift" FILE="K:/Studio/startingfrommidway/Content/Lift.uasset" SILENT=true
+[2016.10.27-12.47.19:971][736]LogSavePackage: Save=296.42ms
+[2016.10.27-12.47.19:971][736]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Lift38BBBB244F66F05C80F051BD66B0DA5A.tmp' to 'K:/Studio/startingfrommidway/Content/Lift.uasset'
+[2016.10.27-12.47.20:109][736]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Lift.uasset
+[2016.10.27-12.48.45:978][980]BlueprintLog: New page: Compile Lift
+[2016.10.27-12.50.36:048][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="K:/Studio/startingfrommidway/Saved/Autosaves/Game/Level1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.10.27-12.50.37:283][996]LogSavePackage: Save=891.21ms
+[2016.10.27-12.50.37:283][996]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Level1_Auto2B737EBE24DAD8CA3DDD224B5E56E6688.tmp' to 'K:/Studio/startingfrommidway/Saved/Autosaves/Game/Level1_Auto2.umap'
+[2016.10.27-12.50.37:338][996]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Saved/Autosaves/Game/Level1_Auto2.umap
+[2016.10.27-12.50.37:365][996]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 1.388
+[2016.10.27-12.50.37:365][996]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.388
+[2016.10.27-12.50.37:403][996]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Lift] ([1] browsable assets)...
+[2016.10.27-12.50.37:403][996]OBJ SavePackage: Finished generating thumbnails for package [/Game/Lift]
+[2016.10.27-12.50.37:403][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lift" FILE="K:/Studio/startingfrommidway/Saved/Autosaves/Game/Lift_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.10.27-12.50.38:058][996]LogSavePackage: Save=351.07ms
+[2016.10.27-12.50.38:058][996]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Lift_Auto29E5E00C34A3AF37FAE40638BA0EA8540.tmp' to 'K:/Studio/startingfrommidway/Saved/Autosaves/Game/Lift_Auto2.uasset'
+[2016.10.27-12.50.38:120][996]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Saved/Autosaves/Game/Lift_Auto2.uasset
+[2016.10.27-12.50.38:120][996]LogFileHelpers: Auto-saving content packages took 0.740
+[2016.10.27-12.58.49:794][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lift" FILE="K:/Studio/startingfrommidway/Content/Lift.uasset" SILENT=true
+[2016.10.27-12.58.50:698][798]LogSavePackage: Save=473.26ms
+[2016.10.27-12.58.50:698][798]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/LiftA1FC5EC94D103A927DEB329CEAA914C6.tmp' to 'K:/Studio/startingfrommidway/Content/Lift.uasset'
+[2016.10.27-12.58.50:839][798]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Lift.uasset
+[2016.10.27-12.58.51:350][858]BlueprintLog: New page: Compile Lift
+[2016.10.27-13.00.43:255][869]LogEditorTransaction: Undo Create Pin Link
+[2016.10.27-13.00.43:696][906]LogEditorTransaction: Undo Create Reroute Node
+[2016.10.27-13.02.24:048][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lift" FILE="K:/Studio/startingfrommidway/Content/Lift.uasset" SILENT=true
+[2016.10.27-13.02.25:029][654]LogSavePackage: Save=525.15ms
+[2016.10.27-13.02.25:029][654]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Lift21A157724802F8148996EAAB3FB86948.tmp' to 'K:/Studio/startingfrommidway/Content/Lift.uasset'
+[2016.10.27-13.02.25:223][654]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Lift.uasset
+[2016.10.27-13.02.26:000][745]BlueprintLog: New page: Compile Lift
+[2016.10.27-13.02.27:814][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-13.02.27:815][933]PIE: New page: PIE session: Level1 (Oct 27, 2016, 2:02:27 PM)
+[2016.10.27-13.02.27:815][933]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.10.27-13.02.27:825][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010172s)
+[2016.10.27-13.02.27:825][933]LogAIModule: Creating AISystem for world Level1
+[2016.10.27-13.02.27:827][933]LogPlayLevel: PIE: World Init took: (0.002347s)
+[2016.10.27-13.02.27:827][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.012714s)
+[2016.10.27-13.02.27:842][933]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.27-13.02.27:848][933]LogInit: FAudioDevice initialized.
+[2016.10.27-13.02.27:881][933]LogWorld: Game class is 'My2DGame_C'
+[2016.10.27-13.02.27:885][933]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.27-14.02.27
+[2016.10.27-13.02.27:885][933]LogWorld: Bringing up level for play took: 0.003098
+[2016.10.27-13.02.27:886][933]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.02.27:886][933]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.02.27:886][933]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.02.27:887][933]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.02.27:887][933]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.865
+[2016.10.27-13.03.29:551][ 93]LogCharacterMovement: Dave_C_0 is stuck and failed to move! Velocity: X=571.88 Y=0.00 Z=0.00 Location: X=-138.76 Y=0.00 Z=322.83 Normal: X=-0.62 Y=0.00 Z=-0.79 PenetrationDepth:0.000 Actor:Lift_636 Component:LiftSprite BoneName:None (0 other events since notify)
+[2016.10.27-13.03.33:707][576]LogCharacterMovement: Dave_C_0 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=58.92 Y=0.00 Z=323.02 Normal: X=0.00 Y=0.00 Z=-1.00 PenetrationDepth:22.869 Actor:Lift_636 Component:LiftSprite BoneName:None (2 other events since notify)
+[2016.10.27-13.05.13:556][859]BlueprintLog: New page: Compile Dave
+[2016.10.27-13.05.14:246][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dave" FILE="K:/Studio/startingfrommidway/Content/Dave.uasset" SILENT=true
+[2016.10.27-13.05.15:324][922]LogSavePackage: Save=719.92ms
+[2016.10.27-13.05.15:324][922]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Dave505DBEA445AF3CA31CA187B98F5EE546.tmp' to 'K:/Studio/startingfrommidway/Content/Dave.uasset'
+[2016.10.27-13.05.15:512][922]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Dave.uasset
+[2016.10.27-13.06.30:022][470]BlueprintLog: New page: Compile Lift
+[2016.10.27-13.06.57:063][526]LogClass:Warning: Type mismatch in Delay of SKEL_Lift_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2016.10.27-13.07.20:111][ 21]BlueprintLog: New page: Compile Lift
+[2016.10.27-13.07.54:908][846]BlueprintLog: New page: Compile Lift
+[2016.10.27-13.07.55:619][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lift" FILE="K:/Studio/startingfrommidway/Content/Lift.uasset" SILENT=true
+[2016.10.27-13.07.56:635][904]LogSavePackage: Save=655.10ms
+[2016.10.27-13.07.56:635][904]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Lift93DFF1374F33D63D354086B7CAEB4B4D.tmp' to 'K:/Studio/startingfrommidway/Content/Lift.uasset'
+[2016.10.27-13.07.56:783][904]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Lift.uasset
+[2016.10.27-13.08.14:586][811]BlueprintLog: New page: Compile Lift
+[2016.10.27-13.08.15:755][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lift" FILE="K:/Studio/startingfrommidway/Content/Lift.uasset" SILENT=true
+[2016.10.27-13.08.16:798][926]LogSavePackage: Save=661.23ms
+[2016.10.27-13.08.16:798][926]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/LiftC8CD77DE4F414A40E0E8C2BC99D62C25.tmp' to 'K:/Studio/startingfrommidway/Content/Lift.uasset'
+[2016.10.27-13.08.16:929][926]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Lift.uasset
+[2016.10.27-13.08.20:481][331]LogEditorViewport: Clicking Background
+[2016.10.27-13.08.47:332][834]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift)
+[2016.10.27-13.08.51:267][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="K:/Studio/startingfrommidway/Saved/Autosaves/Game/Level1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.10.27-13.08.52:606][209]LogSavePackage: Save=970.29ms
+[2016.10.27-13.08.52:606][209]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Level1_Auto3C88FF5F243E337538C36158739DDC29C.tmp' to 'K:/Studio/startingfrommidway/Saved/Autosaves/Game/Level1_Auto3.umap'
+[2016.10.27-13.08.52:665][209]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Saved/Autosaves/Game/Level1_Auto3.umap
+[2016.10.27-13.08.52:709][209]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 1.507
+[2016.10.27-13.08.52:709][209]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.507
+[2016.10.27-13.09.15:093][495]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Layer0_0_Sprite)
+[2016.10.27-13.09.15:498][531]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift2)
+[2016.10.27-13.09.16:528][632]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift)
+[2016.10.27-13.09.17:546][733]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift2)
+[2016.10.27-13.09.25:648][457]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BlockA0_Sprite7)
+[2016.10.27-13.09.26:302][517]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift)
+[2016.10.27-13.09.32:891][123]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Layer0_0_Sprite)
+[2016.10.27-13.09.33:926][224]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Layer0_0_Sprite)
+[2016.10.27-13.09.34:682][296]LogEditorViewport: Clicking Background
+[2016.10.27-13.09.35:735][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-13.09.35:735][412]PIE: New page: PIE session: Level1 (Oct 27, 2016, 2:09:35 PM)
+[2016.10.27-13.09.35:735][412]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.10.27-13.09.35:738][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002922s)
+[2016.10.27-13.09.35:738][412]LogAIModule: Creating AISystem for world Level1
+[2016.10.27-13.09.35:740][412]LogPlayLevel: PIE: World Init took: (0.002214s)
+[2016.10.27-13.09.35:740][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.005337s)
+[2016.10.27-13.09.35:756][412]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.27-13.09.35:762][412]LogInit: FAudioDevice initialized.
+[2016.10.27-13.09.35:796][412]LogWorld: Game class is 'My2DGame_C'
+[2016.10.27-13.09.35:800][412]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.27-14.09.35
+[2016.10.27-13.09.35:800][412]LogWorld: Bringing up level for play took: 0.002879
+[2016.10.27-13.09.35:801][412]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.09.35:801][412]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.09.35:801][412]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.09.35:801][412]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.09.35:802][412]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.93
+[2016.10.27-13.10.35:769][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-13.10.35:769][397]PIE: New page: PIE session: Level1 (Oct 27, 2016, 2:10:35 PM)
+[2016.10.27-13.10.35:770][397]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.10.27-13.10.35:773][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003127s)
+[2016.10.27-13.10.35:773][397]LogAIModule: Creating AISystem for world Level1
+[2016.10.27-13.10.35:775][397]LogPlayLevel: PIE: World Init took: (0.002028s)
+[2016.10.27-13.10.35:775][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.005343s)
+[2016.10.27-13.10.35:792][397]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.27-13.10.35:797][397]LogInit: FAudioDevice initialized.
+[2016.10.27-13.10.35:833][397]LogWorld: Game class is 'My2DGame_C'
+[2016.10.27-13.10.35:836][397]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.27-14.10.35
+[2016.10.27-13.10.35:836][397]LogWorld: Bringing up level for play took: 0.002498
+[2016.10.27-13.10.35:837][397]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.10.35:837][397]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.10.35:837][397]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.10.35:837][397]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.10.35:837][397]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.892
+[2016.10.27-13.10.55:307][614]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift2)
+[2016.10.27-13.10.56:979][784]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Layer0_0_Sprite)
+[2016.10.27-13.11.00:043][ 88]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift2)
+[2016.10.27-13.11.01:010][184]LogEditorViewport: Clicking Background
+[2016.10.27-13.11.01:840][281]Cmd: TRANSACTION UNDO
+[2016.10.27-13.11.01:840][281]LogEditorTransaction: Undo Clicking Background
+[2016.10.27-13.11.02:790][359]Cmd: TRANSACTION UNDO
+[2016.10.27-13.11.02:790][359]LogEditorTransaction: Undo Clicking on Actors
+[2016.10.27-13.11.03:392][417]Cmd: TRANSACTION UNDO
+[2016.10.27-13.11.03:392][417]LogEditorTransaction: Undo Clicking on Actors
+[2016.10.27-13.11.04:844][563]Cmd: TRANSACTION UNDO
+[2016.10.27-13.11.04:844][563]LogEditorTransaction: Undo Clicking on Actors
+[2016.10.27-13.11.07:656][887]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift2)
+[2016.10.27-13.11.09:338][ 56]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BlockA0_Sprite7)
+[2016.10.27-13.11.09:734][ 92]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift)
+[2016.10.27-13.11.10:846][202]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Layer0_0_Sprite)
+[2016.10.27-13.11.11:334][247]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Layer0_0_Sprite)
+[2016.10.27-13.11.12:188][333]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BlockA0_Sprite7)
+[2016.10.27-13.11.12:502][360]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift)
+[2016.10.27-13.11.19:145][899]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Layer0_0_Sprite)
+[2016.10.27-13.11.20:351][ 16]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift2)
+[2016.10.27-13.11.24:111][340]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Layer0_0_Sprite)
+[2016.10.27-13.11.24:545][380]LogEditorViewport: Clicking Background
+[2016.10.27-13.13.46:169][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-13.13.46:169][255]PIE: New page: PIE session: Level1 (Oct 27, 2016, 2:13:46 PM)
+[2016.10.27-13.13.46:169][255]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.10.27-13.13.46:172][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003026s)
+[2016.10.27-13.13.46:173][255]LogAIModule: Creating AISystem for world Level1
+[2016.10.27-13.13.46:174][255]LogPlayLevel: PIE: World Init took: (0.002282s)
+[2016.10.27-13.13.46:175][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.005555s)
+[2016.10.27-13.13.46:191][255]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.27-13.13.46:197][255]LogInit: FAudioDevice initialized.
+[2016.10.27-13.13.46:228][255]LogWorld: Game class is 'My2DGame_C'
+[2016.10.27-13.13.46:231][255]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.27-14.13.46
+[2016.10.27-13.13.46:231][255]LogWorld: Bringing up level for play took: 0.002838
+[2016.10.27-13.13.46:232][255]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.13.46:232][255]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.13.46:232][255]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.13.46:233][255]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.13.46:233][255]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.488
+[2016.10.27-13.14.02:040][804]LogRenderer: Reallocating scene render targets to support 1208x1020 (Frame:325405).
+[2016.10.27-13.14.37:588][192]LogTexture:Display: Building textures: Run (AutoDXT)
+[2016.10.27-13.15.04:544][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dave" FILE="K:/Studio/startingfrommidway/Content/Dave.uasset" SILENT=true
+[2016.10.27-13.15.05:877][703]LogSavePackage: Save=906.40ms
+[2016.10.27-13.15.05:877][703]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Dave8309E8A348705631A9EE69A7A02A1EB8.tmp' to 'K:/Studio/startingfrommidway/Content/Dave.uasset'
+[2016.10.27-13.15.06:016][703]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Dave.uasset
+[2016.10.27-13.15.07:222][821]BlueprintLog: New page: Compile Dave
+[2016.10.27-13.15.09:955][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dave" FILE="K:/Studio/startingfrommidway/Content/Dave.uasset" SILENT=true
+[2016.10.27-13.15.11:255][ 63]LogSavePackage: Save=813.65ms
+[2016.10.27-13.15.11:255][ 63]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Dave832B3D1B48CA38997771078CDD1E4D83.tmp' to 'K:/Studio/startingfrommidway/Content/Dave.uasset'
+[2016.10.27-13.15.11:350][ 63]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Dave.uasset
+[2016.10.27-13.15.17:208][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-13.15.17:208][689]PIE: New page: PIE session: Level1 (Oct 27, 2016, 2:15:17 PM)
+[2016.10.27-13.15.17:208][689]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.10.27-13.15.17:211][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002927s)
+[2016.10.27-13.15.17:211][689]LogAIModule: Creating AISystem for world Level1
+[2016.10.27-13.15.17:213][689]LogPlayLevel: PIE: World Init took: (0.002138s)
+[2016.10.27-13.15.17:213][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.005225s)
+[2016.10.27-13.15.17:229][689]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.27-13.15.17:234][689]LogInit: FAudioDevice initialized.
+[2016.10.27-13.15.17:266][689]LogWorld: Game class is 'My2DGame_C'
+[2016.10.27-13.15.17:271][689]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.27-14.15.17
+[2016.10.27-13.15.17:271][689]LogWorld: Bringing up level for play took: 0.003270
+[2016.10.27-13.15.17:272][689]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.15.17:272][689]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.15.17:272][689]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.15.17:272][689]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.15.17:273][689]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.556
+[2016.10.27-13.17.23:703][121]BlueprintLog: New page: Compile Dave
+[2016.10.27-13.17.24:950][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dave" FILE="K:/Studio/startingfrommidway/Content/Dave.uasset" SILENT=true
+[2016.10.27-13.17.26:112][224]LogSavePackage: Save=775.17ms
+[2016.10.27-13.17.26:112][224]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/DaveC05176C449C62147B72DDE951C63A563.tmp' to 'K:/Studio/startingfrommidway/Content/Dave.uasset'
+[2016.10.27-13.17.26:249][224]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Dave.uasset
+[2016.10.27-13.17.30:422][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-13.17.30:422][646]PIE: New page: PIE session: Level1 (Oct 27, 2016, 2:17:30 PM)
+[2016.10.27-13.17.30:422][646]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.10.27-13.17.30:425][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003343s)
+[2016.10.27-13.17.30:426][646]LogAIModule: Creating AISystem for world Level1
+[2016.10.27-13.17.30:427][646]LogPlayLevel: PIE: World Init took: (0.002120s)
+[2016.10.27-13.17.30:428][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.005662s)
+[2016.10.27-13.17.30:444][646]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.27-13.17.30:449][646]LogInit: FAudioDevice initialized.
+[2016.10.27-13.17.30:480][646]LogWorld: Game class is 'My2DGame_C'
+[2016.10.27-13.17.30:484][646]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.27-14.17.30
+[2016.10.27-13.17.30:484][646]LogWorld: Bringing up level for play took: 0.002643
+[2016.10.27-13.17.30:485][646]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.17.30:485][646]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.17.30:485][646]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.17.30:486][646]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.17.30:486][646]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.225
+[2016.10.27-13.17.40:639][783]LogCharacterMovement: Dave_C_0 is stuck and failed to move! Velocity: X=600.00 Y=0.00 Z=0.00 Location: X=-108.64 Y=0.00 Z=322.10 Normal: X=0.00 Y=0.00 Z=-1.00 PenetrationDepth:0.468 Actor:Lift_636 Component:LiftSprite BoneName:None (0 other events since notify)
+[2016.10.27-13.17.44:390][192]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift2)
+[2016.10.27-13.17.53:781][114]LogEditorViewport: Clicking Background
+[2016.10.27-13.18.12:909][329]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift2)
+[2016.10.27-13.18.14:421][477]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift)
+[2016.10.27-13.18.21:445][185]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift2)
+[2016.10.27-13.18.23:625][401]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift)
+[2016.10.27-13.18.27:026][738]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift2)
+[2016.10.27-13.19.14:771][274]BlueprintLog: New page: Compile Lift
+[2016.10.27-13.19.15:529][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lift" FILE="K:/Studio/startingfrommidway/Content/Lift.uasset" SILENT=true
+[2016.10.27-13.19.16:625][325]LogSavePackage: Save=646.90ms
+[2016.10.27-13.19.16:625][325]LogSavePackage: Moving 'K:/Studio/startingfrommidway/Saved/Lift7B09E8C4489EC8E9AEF85ABFEABBF06C.tmp' to 'K:/Studio/startingfrommidway/Content/Lift.uasset'
+[2016.10.27-13.19.16:761][325]LogSavePackage:Display: Finished SavePackage K:/Studio/startingfrommidway/Content/Lift.uasset
+[2016.10.27-13.19.20:172][636]LogEditorViewport: Clicking Background
+[2016.10.27-13.19.21:615][789]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift2)
+[2016.10.27-13.19.31:709][705]LogEditorViewport: Clicking on Actor (LMB): Lift_C (Lift)
+[2016.10.27-13.19.40:569][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.27-13.19.40:569][500]PIE: New page: PIE session: Level1 (Oct 27, 2016, 2:19:40 PM)
+[2016.10.27-13.19.40:569][500]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.10.27-13.19.40:572][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003287s)
+[2016.10.27-13.19.40:573][500]LogAIModule: Creating AISystem for world Level1
+[2016.10.27-13.19.40:574][500]LogPlayLevel: PIE: World Init took: (0.001936s)
+[2016.10.27-13.19.40:574][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.005410s)
+[2016.10.27-13.19.40:592][500]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.27-13.19.40:597][500]LogInit: FAudioDevice initialized.
+[2016.10.27-13.19.40:632][500]LogWorld: Game class is 'My2DGame_C'
+[2016.10.27-13.19.40:636][500]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.27-14.19.40
+[2016.10.27-13.19.40:636][500]LogWorld: Bringing up level for play took: 0.002950
+[2016.10.27-13.19.40:637][500]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.19.40:637][500]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.27-13.19.40:637][500]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.19.40:638][500]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.27-13.19.40:638][500]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.067
+[2016.10.27-13.19.42:922][737]LogCharacterMovement: Dave_C_0 is stuck and failed to move! Velocity: X=-31.21 Y=0.00 Z=0.00 Location: X=-118.36 Y=0.00 Z=322.12 Normal: X=0.00 Y=0.00 Z=-1.00 PenetrationDepth:1.071 A
